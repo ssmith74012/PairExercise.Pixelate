@@ -16,5 +16,7 @@ function makeRow() {
 }
 
 //invoke to add
-makeRow();
-makeRow();
+// makeRow();
+// makeRow();
+
+const button = document.getElementById("add-row").addEventListener("click", makeRow);
